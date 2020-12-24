@@ -39,3 +39,12 @@ def arm_and_takeoff(aTargetAltitude):
         time.sleep(1)
 
 arm_and_takeoff(20)
+
+# Land vehicle and close connection.
+vehicle.mode = VehicleMode("LAND")
+
+time.sleep(2)
+
+# vehicle.close()
+
+
